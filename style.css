@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #0a0a0a;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #242424;
+    padding: 30px 30px 10px 30px;
+    border-radius: 20px;
+    filter: drop-shadow(0 0 10px white);
+    width: 400px;
+    animation: fadeIn 1s linear;
+}
+
+.box .user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.box .user h1{
+    color: #fafafa;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.box .user p{
+    color: rgb(128, 128, 128);
+}
+
+.box .user img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+/*Block1*/
+
+.link-block1{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    background: #333333;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: all ease .55s;
+}
+
+.link-block1:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+    filter: drop-shadow(0 5px 10px rgba(255, 255, 255, .4));
+}
+
+.link-block1 i{
+    color: red;
+    font-size: 50px;
+    transition: all ease .55s;
+}
+
+.link-block1:hover i{
+    color: rgb(255, 64, 64);
+    filter: drop-shadow(0 0 10px red);
+}
+
+.link-block1 p{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+
+/*Block2*/
+
+.link-block2{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    background: #333333;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: all ease .55s;
+}
+
+.link-block2:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+    filter: drop-shadow(0 5px 10px rgba(255, 255, 255, .4));
+}
+
+.link-block2 i{
+    color: rgb(33, 48, 255);
+    font-size: 50px;
+    transition: all ease .55s;
+}
+
+.link-block2:hover i{
+    color: rgb(64, 115, 255);
+    filter: drop-shadow(0 0 10px blue);
+}
+
+.link-block2 p{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+
+/*Block3*/
+
+.link-block3{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    background: #333333;
+    padding: 10px 20px;
+    margin: 10px 10px 15px 10px;
+    border-radius: 10px;
+    transition: all ease .55s;
+}
+
+.link-block3:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+    filter: drop-shadow(0 5px 10px rgba(255, 255, 255, .4));
+}
+
+.link-block3 i{
+    color: orange;
+    font-size: 50px;
+    transition: all ease .55s;
+}
+
+.link-block3:hover i{
+    color: rgb(255, 179, 64);
+    filter: drop-shadow(0 0 10px orange);
+}
+
+.link-block3 p{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.github a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(185, 185, 185);
+    transition: all ease .55s;
+}
+
+.github a:hover{
+    color: white;
+}
+
+.github p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.github p i{
+    margin-right: 5px;
+}
